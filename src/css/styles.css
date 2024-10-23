@@ -18,5 +18,71 @@ img {
 }
 
 header {
+  max-width: 1475px;
+  width: 100%;
+  margin: 0 auto;
   background-color: #0020f4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header ul {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+header a {
+  color: #ffffff;
+}
+
+header button {
+  width: 160px;
+  height: 55px;
+  border-radius: 28px;
+}
+
+.big-photo {
+  max-width: 1195px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.headline {
+  max-width: 1195px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.photos {
+  max-width: 1195px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  gap: 25px;
+}
+
+.paragraph {
+  max-width: 952px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 18px;
+}
+
+.add-info {
+  max-width: 952px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.add-info button {
+  background-color: #0a22f4;
+  color: #ffffff;
+  width: 341px;
+  height: 55px;
+  border-radius: 28px;
 }
