@@ -137,6 +137,7 @@ footer > div {
 .phone-group {
   display: flex;
   align-items: center;
+  gap: 20px;
 }
 
 .phone-circle {
@@ -153,6 +154,7 @@ footer > div {
 .mail-group {
   display: flex;
   align-items: center;
+  gap: 20px;
 }
 
 .mail-circle {
@@ -174,4 +176,15 @@ footer > div {
 .sector-4 {
   grid-column: 2;
   grid-row: 1 / span 2;
+}
+
+/* form {
+  display: flex;
+  flex-direction: column;
+} */
+
+.contact-form form {
+  max-width: 463px;
+  display: flex;
+  flex-direction: column;
 }
