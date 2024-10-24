@@ -17,6 +17,20 @@ img {
   max-width: 100%;
 }
 
+@font-face {
+  font-family: "Helvetica-Neue-LT-GEO-45-Lights";
+  src: url("../fonts/HelveticaNeueLTGEO-45Lights.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueLTGEO-45Lights.woff") format("woff"),
+    url("../fonts/HelveticaNeueLTGEO-45Lights.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font {
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+}
+
 header {
   max-width: 1920px;
   width: 100%;
@@ -41,6 +55,8 @@ header ul {
   display: flex;
   gap: 50px;
   align-items: center;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 16px;
 }
 
 header a {
@@ -51,6 +67,9 @@ header button {
   width: 160px;
   height: 55px;
   border-radius: 28px;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .big-photo {
@@ -64,6 +83,9 @@ header button {
   width: 100%;
   margin: 0 auto;
   padding: 30px 0 60px 0;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-weight: bold;
+  font-size: 28px;
 }
 
 .photos {
@@ -78,22 +100,30 @@ header button {
   max-width: 952px;
   width: 100%;
   margin: 60px auto 18px auto;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 16px;
 }
 
 .paragraph-2 {
   max-width: 952px;
   width: 100%;
   margin: 0 auto;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 16px;
 }
 
 .paragraph-2A {
   margin-bottom: 30px;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 16px;
 }
 
 .paragraph-3 {
   max-width: 952px;
   width: 100%;
   margin: 18px auto 0 auto;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 16px;
 }
 
 .add-info {
@@ -110,6 +140,8 @@ header button {
   width: 341px;
   height: 55px;
   border-radius: 28px;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 16px;
 }
 
 footer {
@@ -246,11 +278,19 @@ form {
 .input-field {
   padding: 5px;
   height: 44px;
+  background-color: #0a22f4;
+  border-top: #0a22f4;
+  border-right: #0a22f4;
+  border-left: #0a22f4;
 }
 
 .input-field-message {
   padding: 5px;
   height: 124px;
+  background-color: #0a22f4;
+  border-top: #0a22f4;
+  border-right: #0a22f4;
+  border-left: #0a22f4;
 }
 
 .div-button {
