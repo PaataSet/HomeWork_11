@@ -86,3 +86,92 @@ header button {
   height: 55px;
   border-radius: 28px;
 }
+
+footer {
+  max-width: 1475px;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+  background-color: #0a22f4;
+}
+
+footer > div {
+  background-color: aquamarine;
+  min-width: 200px;
+  min-height: 100px;
+}
+
+.sector-1 {
+  grid-column: 1;
+}
+
+.sector-1-paragraph {
+  width: 463px;
+  margin-top: 30px;
+  margin-bottom: 68px;
+}
+
+.under-map {
+  width: 463px;
+  height: 200px;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 15px;
+}
+
+.map {
+  position: absolute;
+  transform: translate(10px, -210px);
+  border-radius: 15px;
+}
+
+.sector-2 {
+  grid-row: 2;
+  display: flex;
+  align-items: center;
+  gap: 98px;
+}
+
+.phone-group {
+  display: flex;
+  align-items: center;
+}
+
+.phone-circle {
+  width: 70px;
+  height: 70px;
+  border: 1px #0a22f4;
+  border-radius: 35px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mail-group {
+  display: flex;
+  align-items: center;
+}
+
+.mail-circle {
+  width: 70px;
+  height: 70px;
+  border: 1px #0a22f4;
+  border-radius: 35px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sector-3 {
+  grid-row: 3;
+  grid-column: 1 / span 2;
+}
+
+.sector-4 {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}
