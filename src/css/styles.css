@@ -155,6 +155,7 @@ footer {
   margin: 0 auto;
   max-height: 1080px;
   background-color: #0a22f4;
+  padding: 5px;
 }
 
 .inside-footer {
@@ -164,12 +165,11 @@ footer {
   padding-top: 275px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 5px;
+  /* gap: 5px; */
   color: #ffffff;
 }
 
 footer > div {
-  /* background-color: aquamarine; */
   min-width: 200px;
   min-height: 100px;
 }
@@ -184,6 +184,13 @@ footer > div {
   font-weight: bold;
 }
 
+.for-mobile > h1 {
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 32px;
+  font-weight: bold;
+  display: none;
+}
+
 .sector-1-paragraph {
   width: 463px;
   margin-top: 30px;
@@ -192,8 +199,13 @@ footer > div {
   font-size: 16px;
 }
 
-.under-map {
+.map-sector {
   width: 463px;
+  width: 100%0;
+}
+
+.under-map {
+  max-width: 463px;
   height: 200px;
   background-color: #ffffff;
   position: relative;
@@ -201,6 +213,7 @@ footer > div {
 }
 
 .map {
+  max-width: 463px;
   position: absolute;
   transform: translate(10px, -210px);
   border-radius: 15px;
@@ -269,6 +282,10 @@ footer > div {
   align-items: end;
 }
 
+.burger-menu {
+  display: none;
+}
+
 .all-rights {
   margin-top: 184px;
   margin-bottom: 40px;
@@ -311,6 +328,7 @@ form {
 }
 
 .input-field {
+  margin-bottom: 40px;
   padding: 5px;
   height: 44px;
   background-color: #0a22f4;
@@ -348,8 +366,213 @@ form button {
   font-weight: bold;
 }
 
-/* .contact-form form {
-  max-width: 463px;
-  display: flex;
-  flex-direction: column;
-} */
+@media (max-width: 1024px) {
+  header {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .inside-header {
+    max-width: 340px;
+    height: 185px;
+    margin: 0 auto;
+    border-bottom-left-radius: 20px;
+  }
+
+  .Sky-House-Logo {
+    margin: 0 auto;
+  }
+
+  header nav {
+    display: none;
+  }
+
+  .big-photo {
+    padding: 20px;
+    margin: -50px auto 0 auto;
+  }
+
+  .headline {
+    max-width: 1195px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 16px 20px 40px 20px;
+    font-size: 18px;
+  }
+
+  .photos {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 5px;
+  }
+
+  .photos > img {
+    max-width: 162px;
+    width: 100%;
+  }
+
+  .paragraph-1 {
+    padding: 5px;
+  }
+
+  .paragraph-2 {
+    display: none;
+  }
+
+  .paragraph-3 {
+    display: none;
+  }
+
+  .add-info {
+    max-width: 952px;
+    width: 100%;
+    margin: 12px auto 40px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .inside-footer {
+    /* grid-template-columns: 1fr; */
+    padding-top: 30px;
+  }
+
+  .for-mobile > h1 {
+    display: block;
+    font-size: 18px;
+  }
+
+  form {
+    margin-top: 40px;
+    max-width: 334px;
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica-Neue-LT-GEO-45-Lights;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .input-field {
+    padding: 5px;
+    height: 25px;
+  }
+
+  .input-field-message {
+    padding: 5px;
+    height: 30px;
+  }
+
+  .div-button {
+    width: 334px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  form button {
+    margin-top: 30px;
+    width: 334px;
+    height: 55px;
+    background-color: #ffffff;
+    border-radius: 28px;
+    align-items: end;
+    font-family: Helvetica-Neue-LT-GEO-45-Lights;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .sector-4 {
+    grid-column: 1;
+  }
+
+  .sector-1 {
+    grid-row: 2;
+  }
+
+  .sector-1 > h1 {
+    display: none;
+  }
+
+  .sector-1-paragraph {
+    display: none;
+  }
+
+  /* .map-sector {
+    width: 463px;
+    width: 100%0;
+    height: 200px;
+  } */
+
+  .under-map {
+    display: none;
+  }
+
+  .map {
+    display: flex;
+    max-width: 334px;
+    /* position: absolute;
+    transform: translate(0, 100px); */
+    transform: unset;
+    margin-top: 40px;
+  }
+
+  .sector-2 {
+    grid-row: 3;
+    gap: 5px;
+    font-size: 13px;
+    margin-top: 220px;
+  }
+
+  .made-by {
+    display: flex;
+    align-items: center;
+    margin: 88px auto 34px auto;
+    font-family: Helvetica-Neue-LT-GEO-45-Lights;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .all-rights {
+    margin: 0 auto;
+
+    font-family: Helvetica-Neue-LT-GEO-45-Lights;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .burger-menu {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .sector-3 {
+    grid-row: 4;
+    max-width: 375px;
+    /* max-height: 160px; */
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .phone-circle {
+    width: 20px;
+    height: 20px;
+    border: 1px #0a22f4;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mail-circle {
+    width: 20px;
+    height: 20px;
+    border: 1px #0a22f4;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
