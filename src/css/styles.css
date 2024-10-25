@@ -150,10 +150,9 @@ header button {
 }
 
 footer {
-  max-width: 1920px;
+  width: 1920px;
   width: 100%;
   margin: 0 auto;
-  max-height: 1080px;
   background-color: #0a22f4;
   padding: 5px;
 }
@@ -165,7 +164,6 @@ footer {
   padding-top: 275px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  /* gap: 5px; */
   color: #ffffff;
 }
 
@@ -432,6 +430,7 @@ form button {
   }
 
   .inside-footer {
+    /* ამბრძანებამ არ იმუშავა, ვერ მივხვდი რატომ */
     /* grid-template-columns: 1fr; */
     padding-top: 30px;
   }
@@ -495,12 +494,6 @@ form button {
     display: none;
   }
 
-  /* .map-sector {
-    width: 463px;
-    width: 100%0;
-    height: 200px;
-  } */
-
   .under-map {
     display: none;
   }
@@ -508,8 +501,6 @@ form button {
   .map {
     display: flex;
     max-width: 334px;
-    /* position: absolute;
-    transform: translate(0, 100px); */
     transform: unset;
     margin-top: 40px;
   }
@@ -547,7 +538,6 @@ form button {
   .sector-3 {
     grid-row: 4;
     max-width: 375px;
-    /* max-height: 160px; */
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
