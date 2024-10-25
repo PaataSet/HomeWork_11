@@ -59,6 +59,11 @@ header ul {
   font-size: 16px;
 }
 
+nav a:hover {
+  border: none;
+  border-bottom: 1px solid;
+}
+
 header a {
   color: #ffffff;
 }
@@ -173,10 +178,18 @@ footer > div {
   grid-column: 1;
 }
 
+.sector-1 > h1 {
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 32px;
+  font-weight: bold;
+}
+
 .sector-1-paragraph {
   width: 463px;
   margin-top: 30px;
   margin-bottom: 68px;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 16px;
 }
 
 .under-map {
@@ -198,6 +211,18 @@ footer > div {
   display: flex;
   align-items: center;
   gap: 98px;
+}
+
+.phone-text {
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.mail-text {
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 16px;
+  color: #ffffff;
 }
 
 .phone-group {
@@ -247,12 +272,18 @@ footer > div {
 .all-rights {
   margin-top: 184px;
   margin-bottom: 40px;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .made-by {
   display: flex;
   align-items: center;
   margin-bottom: 32px;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 13px;
+  font-weight: bold;
 }
 
 .heart {
@@ -270,9 +301,13 @@ footer > div {
 }
 
 form {
+  margin-top: 90px;
   max-width: 463px;
   display: flex;
   flex-direction: column;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .input-field {
@@ -282,6 +317,7 @@ form {
   border-top: #0a22f4;
   border-right: #0a22f4;
   border-left: #0a22f4;
+  border-width: 1px;
 }
 
 .input-field-message {
@@ -291,6 +327,7 @@ form {
   border-top: #0a22f4;
   border-right: #0a22f4;
   border-left: #0a22f4;
+  border-width: 1px;
 }
 
 .div-button {
@@ -306,6 +343,9 @@ form button {
   background-color: #ffffff;
   border-radius: 28px;
   align-items: end;
+  font-family: Helvetica-Neue-LT-GEO-45-Lights;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 /* .contact-form form {
